@@ -35,10 +35,6 @@
 	border-radius: 50%;
 }
 
-.bead:hover {
-	background-color: gray;
-}
-
 .col_a {
 	left: 30px;
 }

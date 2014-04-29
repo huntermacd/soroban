@@ -61,7 +61,7 @@ var i5 = document.getElementById("i5");
 // bead5: 180
 
 function oneToggle(bead2, bead3, bead4, bead5) {
-	if (bead2.style.top === "105px"){
+	if (bead2.style.top === "105px" || bead2.style.top === ""){
 		bead2.style.top = "80px";
 	} else {
 		bead2.style.top = "105px";
@@ -72,7 +72,7 @@ function oneToggle(bead2, bead3, bead4, bead5) {
 }
 
 function twoToggle(bead2, bead3, bead4, bead5) {
-	if (bead3.style.top === "130px"){
+	if (bead3.style.top === "130px" || bead3.style.top === ""){
 		bead2.style.top = "80px";
 		bead3.style.top = "105px";
 	} else {
@@ -83,7 +83,7 @@ function twoToggle(bead2, bead3, bead4, bead5) {
 }
 
 function threeToggle(bead2, bead3, bead4, bead5) {
-	if (bead4.style.top === "155px"){
+	if (bead4.style.top === "155px" || bead4.style.top === ""){
 		bead2.style.top = "80px";
 		bead3.style.top = "105px";
 		bead4.style.top = "130px";
@@ -94,7 +94,7 @@ function threeToggle(bead2, bead3, bead4, bead5) {
 }
 
 function fourToggle(bead2, bead3, bead4, bead5) {
-	if (bead5.style.top === "180px"){
+	if (bead5.style.top === "180px" || bead5.style.top === ""){
 		bead2.style.top = "80px";
 		bead3.style.top = "105px";
 		bead4.style.top = "130px";
@@ -105,7 +105,7 @@ function fourToggle(bead2, bead3, bead4, bead5) {
 }
 
 function fiveToggle(bead1) {
-	if (bead1.style.top === "0px"){
+	if (bead1.style.top === "0px" || bead1.style.top === ""){
 		bead1.style.top = "25px";
 	} else {
 		bead1.style.top = "0px";
